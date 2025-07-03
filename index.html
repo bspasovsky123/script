@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Моя страница</title>
+    <title>Текст на странице</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -23,11 +23,24 @@
             margin: 0 auto;
             font-size: 18px;
         }
+
+        .code {
+            background-color: #f7f7f7;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-family: monospace;
+            word-wrap: break-word;
+            white-space: pre-wrap;
+        }
     </style>
 </head>
 <body>
     <div class="content">
-        <h1>loadstring(game:HttpGet("https://raw.githubusercontent.com/greywaterstill/GAG/refs/heads/main/nathub.lua"))()</h1>
+        <h1>Текст на странице</h1>
+        <div class="code">
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/greywaterstill/GAG/refs/heads/main/nathub.lua"))()
+        </div>
     </div>
 </body>
-</html
+</html>
